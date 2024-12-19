@@ -14,6 +14,11 @@ export default defineNuxtConfig({
      // measurementId: process.env.FIREBASE_MEASUREMENT_ID,
     },
   },
+  nitro: {
+    firebase: {
+      gen: 2
+    }
+  },
 
   runtimeConfig: {
     resendKey: process.env.RESEND_KEY,
